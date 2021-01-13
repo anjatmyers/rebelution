@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <%- include('partials/template/head.ejs') %>
+  <body class="grey">
+
+    <%- include('partials/content/header.ejs') %>
+
+
+    <div class="imageContainer d-flex justify-content-center">
+
+        <div class="welcome col m-3">
+            <h3 class="p-3 textBlue">Welcome to the Rebelution Chat Room! Please comment below to connect with other reggae fans!</h3>
+        </div>
+
+        <div class="image col-9 mt-2">
+            <img src="../images/bandphoto.jpg" alt="" id="bandPhoto">
+        </div>
+
+    </div>
+
+    <div class="chatContainer m-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <article class="chat">
+                    <header class="chat-header">
+                        <div class="h3 chat-title">Rebelution Chat
+                        </div><!-- chat-title -->
+                    </header><!-- chat-header -->
+                    <form name="chatForm" class="form-horizontal chat-form">
+                        <div class="form-group">
+                            <label for="chat-username" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="chat-username" required
+                                    placeholder="Enter your name">
+                            </div><!-- col-sm-10 -->
+                        </div><!-- form-group -->
+                        <div class="form-group">
+                            <label for="chat-message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Enter a message, then press enter"
+                                        class="form-control" id="chat-message" rows="2" autocomplete="off" required>
+                                    <span class="input-group-btn">
+                                        <button id="chat-submit" class="btn btn-info" type="submit">Chat</button>
+                                    </span>
+                                </div><!-- input-group -->
+                            </div><!-- col-sm-10 -->
+                        </div><!-- form-group -->
+                    </form>
+                    <div class="panel panel-default ">
+                        <div class="panel-body chat-display">
+                            <p class="text-muted chat-text">Welcome...add your message using the form above</p>
+                        </div><!-- panel-body -->
+                    </div><!-- panel-default -->
+                </article><!-- article -->
+            </div><!-- col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</div> 
+<!-- end of chatContainer -->
+      
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"></script>
+        <script src="/js/chat.js"></script>
+   
+
+  </body>
+</html>

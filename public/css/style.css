@@ -11,6 +11,10 @@ body {
    background-size: cover;
 }
 
+.font {
+    font-family: 'Architects Daughter', cursive;
+}
+
 .textGrey {
     color: rgb(212, 209, 209);
 }
@@ -45,4 +49,18 @@ a:hover {
 .noMargin {
     margin: 0px;
     padding: 0px;
+}
+
+#bandPhoto {
+    height: 650px;
+    border-radius: 10%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(24, 24, 24);
+    color: rgb(212, 209, 209);
 }
