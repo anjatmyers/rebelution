@@ -1,0 +1,59 @@
+{
+"albums": [{
+    "name": "Courage To Grow",
+    "shortname": "couragetogrow",
+    "summary" : "This debut album was released on June 8, 2007, and reached the number 4 position in the Billboard Reggae Album chart",
+    "artwork": "couragetogrow.jpg",
+    "tracklist": ["Courage to Grow", "Heart Like a Lion", "Safe and Sound", "Feeling Alright", "Ordinary Girl", "R Way", "Attention Span", "Green to Black", "On My Mind", "Running", "NightCrawler", "Other Side"],
+    "albumAM": "https://music.apple.com/us/album/courage-to-grow/1371848861",
+    "albumSM": "https://open.spotify.com/album/581TFVtaXAO5GeU5Ry324y",
+    "length": "56 minutes 46 seconds"
+}, {
+    "name": "Bright Side of Life",
+    "shortname": "brightsideoflife",
+    "summary" : "The second album by reggae/rock group Rebelution. It was released on August 4, 2009, under Controlled Substance Sound Labs.",
+    "artwork": "brightside.jpg",
+    "tracklist": ["Bright Side of Life", "More than Ever", "Outta Control", "From the Window", "Suffering", "Too Rude", "Dubzilla", "Bump", "Lazy Afternoon", "Moonlight", "Change the System", "Wake Up Call"],
+    "albumAM": "https://music.apple.com/gh/album/bright-side-of-life/588836255",
+    "albumSM": "https://open.spotify.com/album/6ry84mOthM6loLKbhuiovs",
+    "length": "52 minutes 40 seconds"
+}, {
+    "name": "Peace of Mind",
+    "shortname": "peaceofmind",
+    "summary" : "The third studio album released by Rebelution, released through their own label 87 Music on January 10, 2012. The label, in partnership with Controlled Substance Sound Labs, simultaneously released two additional versions of the entire record as a multi-length triple album.",
+    "artwork": "peaceofmind.jpg",
+    "tracklist": ["Sky Is the Limit", "Comfort Zone", "Good Vibes", "Route Around", "Meant to Be", "Life on the Line", "Closer I Get", "Lady in White", "So High", "Day By Day", "Calling Me Out", "Honeypot"],
+    "albumAM": "https://music.apple.com/us/album/peace-of-mind-deluxe/485476117",
+    "albumSM": "https://open.spotify.com/album/52RvjgDJIV5UWHCwcuSnry",
+    "length": "45 minutes 51 seconds"
+}, {
+    "name": "Count Me In",
+    "shortname": "countmein",
+    "summary" : "The fourth album by California band Rebelution, released in 2014. It debuted at #14 on the Billboard 200.",
+    "artwork": "countmein.jpg",
+    "tracklist": ["Count Me In", "De-Stress", "More Love", "Lost in Dreams", "Fade Away", "Hate to Be the One", "Notice Me", "Roots Reggae Music", "Counterfeit Love", "Against the Grain", "Invasion"], 
+    "albumAM": "https://music.apple.com/pa/album/count-me-in/860352132",
+    "albumSM": "https://open.spotify.com/album/05SuSxEPuEJI1RnwTcOCRg",
+    "length": "40 minutes 26 seconds"
+}, {
+    "name": "Falling into Place",
+    "shortname": "fallingintoplace",
+    "summary" : "The fifth album by California band Rebelution, released on June 3, 2016. The collection is a joint venture between their 87 Music label and NYC-based Easy Star Records. A dozen years into the group’s stirring career with over 450,000 albums sold independently, the release of this new album finds the group more energized than ever.",
+    "artwork": "fallingintoplace.jpg",
+    "tracklist": ["Know It All", "Inhale Exhale", "Upper Hand", "Lay My Claim", "Pretty Lady", "Santa Barbara", "Those Days", "Free Up Your Mind", "Mirage", "High on Life", "Breakdown"], 
+    "albumAM": "https://music.apple.com/us/album/falling-into-place/1100442748",
+    "albumSM": "https://open.spotify.com/album/3TsqZMEQhGAnQ1nph9M22A",
+    "length": "37 minutes 59 seconds"
+}, {
+    "name": "Free Rein",
+    "shortname": "freerein",
+    "summary" : "Rebelution has released their 6th studio album Free Rein (87 Music/Easy Star Records). The 12 tracks on the LP fuse Rebelution’s classic reggae sound with genres spanning R&B, rock, jazz and folk; this is Rebelution’s most diverse album to date. The collection of songs shines a spotlight on the band’s evocative songwriting, incendiary playing and timely lyrical commentary. The bold move from the powerhouse band proves their artistry and experimental prowess, though their signature laidback Summery reggae sound still shines through (thanks in part to collaborations with acclaimed Jamaican producers Don Corleon [Rihanna, Sean Paul] and Winta James [Damian Marley, Chronixx]).",
+    "artwork": "freerein.jpg",
+    "tracklist": ["Celebrate", "City Life", "Legend", "Settle Down Easy", "Take on Anything", "Patience", "Rise on Top", "Trap Door", "Good Day", "Healing", "More Energy", "Constellation"], 
+    "albumAM": "https://music.apple.com/us/album/free-rein/1341229072",
+    "albumSM": "https://open.spotify.com/album/5FfbqVo0OapeCvoJvjWlOp",
+    "length": "43 minutes 34 seconds"
+}
+
+
+]}

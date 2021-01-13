@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <%- include('partials/template/head.ejs') %> 
+</head>
+  <body class="green">
+    
+    <%- include('partials/content/header.ejs') %> 
+
+    <main>
+    <div class="photocontainer d-flex flex-column">
+     <% albums.forEach(elementObj => { %>
+
+        <div class="allAlbumsContainer d-flex flex-column mt-4">
+
+            <div class="albumcontainer d-flex">
+                  
+                <div class="col-lg-12 my-2 mr-2">
+                    <div class="card w-100 grey border-0 p-3">
+                    <h5 class="card-header border-0"><%= elementObj.name %></h5>
+                    <div class="card-body d-flex">
+                        <div class="image-tracks">
+                            <img src="../images/<%=elementObj.artwork%>" class="albumPhotos" alt="..." style="border-radius: 5%;">
+                            <div class="tracklist m-2">
+                              <ol class="card-text">
+                                  <% for (i in elementObj.tracklist){ %>
+                                  
+                                  <li><%= elementObj.tracklist[i] %> </li>
+                                  
+      
+                                  <% } %>
+                              </ol> 
+                              <p class="card-text"><small class="text-muted"><%= elementObj.length %></small></p>
+                          </div>
+                      </div>
+                      <div class="summary-buttons m-4">
+                        <p class="card-text"><%= elementObj.summary%></p>
+                        <a href="<%= elementObj.albumSM%>" class="btn btn-outline-secondary noMargin mr-2 mb-2" style="border-radius: 10%;"><img src="../images/spotify.png" alt="" style="border-radius: 10%; height: 45px;"></a>
+                        <a href="<%= elementObj.albumAM%>" class="btn btn-outline-secondary noMargin mr-2 mb-2" style="border-radius: 10%;"><img src="../images/apple.jpeg" alt="" style="border-radius: 10%; height: 45px;"></a>
+                      </div>
+
+                    </div>
+                    </div>
+                </div>
+                
+            
+            </div>
+
+        </div>
+
+        
+     <% }) %>
+    </div>
+    
+
+    </main>
+    
+
+    <footer>
+
+    </footer>
+
+<%- include('partials/template/script.ejs')%> 
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+}
+
+.parallax{
+   background-image: url(../images/concert.jpg);
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.textGrey {
+    color: rgb(212, 209, 209);
+}
+.textGreen {
+    color: #35ac7a;
+}
+.textPurple {
+    color: #40288f;
+}
+.textBlue{
+    color: #2e518a;
+}
+
+a:hover {
+    color: grey;
+}
+
+.albumPhotos {
+    width: 300px;
+}
+
+.grey {
+    background-color: rgb(230, 230, 230);
+}
+.green{
+    background-color: #63b895;
+}
+.blue {
+    background-color: #2e518a;
+}
+
+.noMargin {
+    margin: 0px;
+    padding: 0px;
+}
